@@ -1,0 +1,3 @@
+name:STAR,colorVertices:2,vertexElements:4,vertices:40,subtype:STAR1,figure:SPHERE,scope:ABIDING,collisionRange:3,repairAbility:0
+1.0,    1.0,    1.0, 1.0,
+1.0,    1.0,    1.0, 1.0,

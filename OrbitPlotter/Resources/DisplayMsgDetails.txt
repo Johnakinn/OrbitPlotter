@@ -1,0 +1,16 @@
+name:WARN_MSG_PROXIMITY,id:0,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:0,duration:TIMED
+name:WARN_MSG_FUELLOW,id:1,time:5,repeat:30,severity:WARN,dspType:LABEL,strArrIdx:1,duration:PERIODIC
+name:WARN_MSG_HIT,id:2,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:2,duration:TIMED
+name:WARN_MSG_HEAT,id:3,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:3,duration:TIMED
+name:WARN_MSG_GAMEOVER,id:4,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:4,duration:USER_ACK
+name:WARN_MSG_NEXT_LEVEL,id:5,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:5,duration:TIMED
+name:WARN_MSG_REFUELED,id:6,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:6,duration:TIMED
+name:WARN_MSG_HEAT_REPAIRED,id:7,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:7,duration:TIMED
+name:WARN_MSG_HIT_REPAIRED,id:8,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:8,duration:TIMED
+name:WARN_MSG_WORMHOLE,id:9,time:5,repeat:0,severity:WARN,dspType:LABEL,strArrIdx:9,duration:TIMED
+name:WARN_POPUP_FUEL,id:10,time:0,repeat:30,severity:WARN,dspType:POPUP,strArrIdx:0,duration:PERIODIC
+name:WARN_POPUP_SHIELD,id:11,time:0,repeat:30,severity:WARN,dspType:POPUP,strArrIdx:1,duration:PERIODIC
+name:WARN_POPUP_HEAT,id:12,time:200,repeat:0,severity:WARN,dspType:POPUP,strArrIdx:2,duration:PERIODIC
+name:WARN_POPUP_PAUSED,id:13,time:0,repeat:0,severity:WARN,dspType:POPUP,strArrIdx:3,duration:USER_ACK
+name:WARN_POPUP_GAMEOVER,id:14,time:0,repeat:0,severity:WARN,dspType:POPUP,strArrIdx:4,duration USER_ACK
+name:INFO_MSG_HOLDER,id:15,time:0,repeat:0,severity:INFO,dspType:LABEL,strArrIdx:3,duration:REPLACED

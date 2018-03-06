@@ -1,0 +1,9 @@
+name:PLANET,maxDistance:MAX_CELESTRIAL_DISTANCE,minScaleFactor:80,maxScaleFactor:120,maxMomentum:0,isOrbital:NO,minNewTime:1,maxActive:0,chanceOfNew:0,lifeScope:ABIDING,shape:SPHERE,textureType:NATURAL
+name:ASTEROID,maxDistance:MAX_ASTERIOD_DISTANCE,minScaleFactor:25,maxScaleFactor:45,maxMomentum:15,isOrbital:NO,minNewTime:1,maxActive:40,chanceOfNew:2,lifeScope:TRANSITORY,shape:POLYGON,textureType:NATURAL
+name:SHIP_CELESTRIAL,maxDistance:MAX_ASTERIOD_DISTANCE,minScaleFactor:38,maxScaleFactor:60,maxMomentum:15,isOrbital:NO,minNewTime:1,maxActive:400,chanceOfNew:2,lifeScope:PIVOTAL,shape:CONE,textureType:ARTIFICIAL
+name:SPACE_STATION,maxDistance:MAX_ASTERIOD_DISTANCE,minScaleFactor:130,maxScaleFactor:150,maxMomentum:15,isOrbital:NO,minNewTime:1,maxActive:200,chanceOfNew:20,lifeScope:PIVOTAL,shape:POLYGON,textureType:ARTIFICIAL
+name:MOON,maxDistance:MAX_CELESTRIAL_DISTANCE,minScaleFactor:5,maxScaleFactor:8,maxMomentum:0,isOrbital:YES,minNewTime:1,maxActive:0,chanceOfNew:0,lifeScope:ABIDING,shape:SPHERE,textureType:NATURAL
+name:SATELLITE,maxDistance:MAX_CELESTRIAL_DISTANCE,minScaleFactor:18,maxScaleFactor:28,maxMomentum:0,isOrbital:YES,minNewTime:1,maxActive:200,chanceOfNew:0,lifeScope:TRANSITORY,shape:POLYGON,textureType:UNSPECIFIED
+name:PLASMA,maxDistance:MAX_CELESTRIAL_DISTANCE,minScaleFactor:5,maxScaleFactor:8,maxMomentum:15,isOrbital:NO,minNewTime:1,maxActive:0,chanceOfNew:0,lifeScope:TRANSITORY,shape:RING,textureType:UNSPECIFIED
+name:STAR,maxDistance:MAX_CELESTRIAL_DISTANCE,minScaleFactor:200,maxScaleFactor:400,maxMomentum:0,isOrbital:NO,minNewTime:15,maxActive:15,chanceOfNew:2000,lifeScope:ABIDING,shape:SPHERE,textureType:NATURAL
+name:WALL,maxDistance:60000,minScaleFactor:100,maxScaleFactor:100,maxMomentum:0,isOrbital:NO,minNewTime:1000,maxActive:0,chanceOfNew:2000,lifeScope:PIVOTAL,shape:POLYGON,textureType:NATURAL

@@ -1,0 +1,5 @@
+name:SHIP_CELESTRIAL,colorVertices:4,vertexElements:3,vertices:36,subtype:CONE1,figure:CONE,scope:PIVOTAL,collisionRange:4,repairAbility:16
+0.9,    0.9,    0.9, 1.0,
+0.9,    0.9,    0.9, 1.0,
+0.9,    0.9,    0.9, 1.0,
+0.9,    0.9,    0.9, 1.0,

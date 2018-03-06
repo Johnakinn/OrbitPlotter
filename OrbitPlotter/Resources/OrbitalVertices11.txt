@@ -1,0 +1,3 @@
+name:PLANET,colorVertices:2,vertexElements:4,vertices:30,subtype:PLANET3,figure:SPHERE,scope:ABIDING,collisionRange:4,repairAbility:0
+0.8,    0.9,    0.9,  1.0,
+0.8,    0.9,    0.9, 1.0,

@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C900AAC51FCFE5E7005133D7 /* OrbitalVertices8.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AAC41FCFE5E7005133D7 /* OrbitalVertices8.txt */; };
+		C900AAC71FCFF727005133D7 /* OrbitalVertices9.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AAC61FCFF727005133D7 /* OrbitalVertices9.txt */; };
+		C900AAC91FCFF75B005133D7 /* OrbitalVertices10.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AAC81FCFF75B005133D7 /* OrbitalVertices10.txt */; };
+		C900AACB1FCFF814005133D7 /* OrbitalVertices11.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AACA1FCFF814005133D7 /* OrbitalVertices11.txt */; };
+		C900AACD1FCFF820005133D7 /* OrbitalVertices12.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AACC1FCFF820005133D7 /* OrbitalVertices12.txt */; };
+		C900AACF1FCFF906005133D7 /* OrbitalVertices13.txt in Resources */ = {isa = PBXBuildFile; fileRef = C900AACE1FCFF906005133D7 /* OrbitalVertices13.txt */; };
+		C90A2E8C1B69C0CF00BEFB1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A2E8B1B69C0CF00BEFB1C /* main.m */; };
+		C90A2E8F1B69C0CF00BEFB1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A2E8E1B69C0CF00BEFB1C /* AppDelegate.m */; };
+		C90A2E911B69C0CF00BEFB1C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = C90A2E901B69C0CF00BEFB1C /* Shader.fsh */; };
+		C90A2E931B69C0CF00BEFB1C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = C90A2E921B69C0CF00BEFB1C /* Shader.vsh */; };
+		C90A2E961B69C0CF00BEFB1C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A2E951B69C0CF00BEFB1C /* GameViewController.m */; };
+		C90A2E9B1B69C0CF00BEFB1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90A2E9A1B69C0CF00BEFB1C /* Images.xcassets */; };
+		C90A2E9E1B69C0CF00BEFB1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90A2E9C1B69C0CF00BEFB1C /* LaunchScreen.xib */; };
+		C90A2EAA1B69C0CF00BEFB1C /* OrbitPlotterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A2EA91B69C0CF00BEFB1C /* OrbitPlotterTests.m */; };
+		C919CB6720479A5C007389D0 /* OrbitalVertices18.txt in Resources */ = {isa = PBXBuildFile; fileRef = C919CB6620479A5C007389D0 /* OrbitalVertices18.txt */; };
+		C92F8F131BA27F330083C4D8 /* OPPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = C90A2EB41B6A1D5100BEFB1C /* OPPlanet.m */; };
+		C92F8F141BA27FB20083C4D8 /* OrbitPlotterTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = C90A2EA31B69C0CF00BEFB1C /* OrbitPlotterTests.xctest */; };
+		C9318F151FD5C5C500CD9984 /* OrbitalVertices14.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9318F141FD5C5C500CD9984 /* OrbitalVertices14.txt */; };
+		C9318F171FD5CE2500CD9984 /* OrbitalVertices15.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9318F161FD5CE2500CD9984 /* OrbitalVertices15.txt */; };
+		C9318F191FD64F1600CD9984 /* OrbitalVertices7.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9318F181FD64F1600CD9984 /* OrbitalVertices7.txt */; };
+		C9318F1E1FD9082D00CD9984 /* OPVertexData.m in Sources */ = {isa = PBXBuildFile; fileRef = C9318F1D1FD9082D00CD9984 /* OPVertexData.m */; };
+		C940433D1B6D5A2600E083A2 /* OPOrbitBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C940433C1B6D5A2600E083A2 /* OPOrbitBase.m */; };
+		C94043401B6FF88C00E083A2 /* OPMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = C940433F1B6FF88C00E083A2 /* OPMapView.m */; };
+		C94FED7A1FC2593C00518CB4 /* OrbitalVertices1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED791FC2593C00518CB4 /* OrbitalVertices1.txt */; };
+		C94FED7C1FC2A56C00518CB4 /* OrbitalVertices2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED7B1FC2A56C00518CB4 /* OrbitalVertices2.txt */; };
+		C94FED7E1FC2A7ED00518CB4 /* OrbitalVertices3.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED7D1FC2A7ED00518CB4 /* OrbitalVertices3.txt */; };
+		C94FED801FC2A97D00518CB4 /* OrbitalVertices4.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED7F1FC2A97D00518CB4 /* OrbitalVertices4.txt */; };
+		C94FED821FC2AAD600518CB4 /* OrbitalVertices5.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED811FC2AAD600518CB4 /* OrbitalVertices5.txt */; };
+		C94FED841FC2B07800518CB4 /* OrbitalVertices6.txt in Resources */ = {isa = PBXBuildFile; fileRef = C94FED831FC2B07800518CB4 /* OrbitalVertices6.txt */; };
+		C9568C171B8BC700009B7D21 /* OPPlanetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9568C161B8BC700009B7D21 /* OPPlanetManager.m */; };
+		C9671DEE1FEA4C7B001B26DC /* txtureNat5.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DED1FEA4C7B001B26DC /* txtureNat5.png */; };
+		C9671DF01FEA6FDF001B26DC /* txtureNat6.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DEF1FEA6FDF001B26DC /* txtureNat6.png */; };
+		C9671DF21FEA71B1001B26DC /* txtureNat8.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DF11FEA71B0001B26DC /* txtureNat8.png */; };
+		C9671DF41FEA71B7001B26DC /* txtureNat9.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DF31FEA71B6001B26DC /* txtureNat9.png */; };
+		C9671DF61FEAFF13001B26DC /* txtureNat10.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DF51FEAFF13001B26DC /* txtureNat10.png */; };
+		C9671DF81FEAFF1B001B26DC /* txtureNat11.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DF71FEAFF1B001B26DC /* txtureNat11.png */; };
+		C9671DFA1FEAFF21001B26DC /* txtureNat7.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DF91FEAFF21001B26DC /* txtureNat7.png */; };
+		C9671DFC1FEB0978001B26DC /* txtureArt3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DFB1FEB0978001B26DC /* txtureArt3.png */; };
+		C9671DFE1FEB097F001B26DC /* txtureArt4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DFD1FEB097F001B26DC /* txtureArt4.png */; };
+		C9671E001FEB0985001B26DC /* txtureArt5.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671DFF1FEB0985001B26DC /* txtureArt5.png */; };
+		C9671E021FEB098B001B26DC /* txtureArt6.png in Resources */ = {isa = PBXBuildFile; fileRef = C9671E011FEB098B001B26DC /* txtureArt6.png */; };
+		C97C2CED20461809005E5955 /* txtureFloor.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C2CEC20461809005E5955 /* txtureFloor.png */; };
+		C97C2CEF204670A0005E5955 /* txtureBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = C97C2CEE2046709F005E5955 /* txtureBlank.png */; };
+		C9809B6A1F84225B00C275CB /* PerspectiveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9809B691F84225B00C275CB /* PerspectiveHelper.m */; };
+		C98203FE2049E650007947D5 /* DisplayMsgDetails.txt in Resources */ = {isa = PBXBuildFile; fileRef = C98203FD2049E650007947D5 /* DisplayMsgDetails.txt */; };
+		C9820400204E435F007947D5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98203FF204E435F007947D5 /* AudioToolbox.framework */; };
+		C9820402204E4421007947D5 /* obsticle2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C9820401204E4421007947D5 /* obsticle2.wav */; };
+		C9887D3D203CD06B0062565B /* OPOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9887D3C203CD06B0062565B /* OPOverlayView.m */; };
+		C98E24F51FDBD1CA007F7048 /* CelestrialDetails.txt in Resources */ = {isa = PBXBuildFile; fileRef = C98E24F41FDBD1CA007F7048 /* CelestrialDetails.txt */; };
+		C98E24F71FDBD4D3007F7048 /* OPPlanetDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C98E24F61FDBD4D3007F7048 /* OPPlanetDetails.m */; };
+		C98E25001FE32B7D007F7048 /* txtureNat2.png in Resources */ = {isa = PBXBuildFile; fileRef = C98E24FF1FE32B7D007F7048 /* txtureNat2.png */; };
+		C995C4B81FA64B7E00FAD8C7 /* MomentumCircleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C995C4B71FA64B7E00FAD8C7 /* MomentumCircleManager.m */; };
+		C9A0B01F200569B80093660D /* OPWall.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A0B01E200569B80093660D /* OPWall.m */; };
+		C9A95A571FEE53E600E63C91 /* OrbitalVertices16.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9A95A561FEE53E600E63C91 /* OrbitalVertices16.txt */; };
+		C9ACE4EE1FAC501900E9D49A /* OPCtrlPanelViewCtrlr.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE4ED1FAC501900E9D49A /* OPCtrlPanelViewCtrlr.m */; };
+		C9ACE4F11FAC671C00E9D49A /* Main_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ACE4F01FAC671C00E9D49A /* Main_Storyboard.storyboard */; };
+		C9ACE4F31FAD8C5A00E9D49A /* OPPlanetFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE4F21FAD8C5A00E9D49A /* OPPlanetFactory.m */; };
+		C9ACE4F61FADA00400E9D49A /* OPPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE4F51FADA00400E9D49A /* OPPlanetController.m */; };
+		C9ACE4F91FAE761700E9D49A /* OPMovingCelestrial.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE4F81FAE761700E9D49A /* OPMovingCelestrial.m */; };
+		C9B700FF1FE8673900F481D9 /* txtureNat1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B700FE1FE8673900F481D9 /* txtureNat1.png */; };
+		C9B701011FE870EE00F481D9 /* txtureNat3.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B701001FE870EE00F481D9 /* txtureNat3.png */; };
+		C9B701031FE8AE3100F481D9 /* txtureNat4.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B701021FE8AE3100F481D9 /* txtureNat4.png */; };
+		C9B701071FE8C03C00F481D9 /* txtureArt2.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B701061FE8C03C00F481D9 /* txtureArt2.png */; };
+		C9B701091FE8C04600F481D9 /* txtureArt1.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B701081FE8C04600F481D9 /* txtureArt1.png */; };
+		C9BBD0191FF7342D005EE688 /* OPVertexCreationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BBD0181FF7342D005EE688 /* OPVertexCreationUtils.m */; };
+		C9BBD01C1FF738A3005EE688 /* OPCelestrialDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C9BBD01B1FF738A3005EE688 /* OPCelestrialDetail.m */; };
+		C9C58C1D1FBCF3AB0054EBDE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C58C1C1FBCF38A0054EBDE /* CoreMotion.framework */; };
+		C9E569941FB6EA18003F4596 /* OPGuideViewCtrlr.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E569931FB6EA18003F4596 /* OPGuideViewCtrlr.m */; };
+		C9E5699B1FB8E964003F4596 /* buttonControlPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569961FB8E964003F4596 /* buttonControlPanel.png */; };
+		C9E5699C1FB8E964003F4596 /* buttonThrustBurst.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569971FB8E964003F4596 /* buttonThrustBurst.png */; };
+		C9E5699D1FB8E964003F4596 /* buttonStats.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569981FB8E964003F4596 /* buttonStats.png */; };
+		C9E5699E1FB8E964003F4596 /* buttonThrustPerp.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569991FB8E964003F4596 /* buttonThrustPerp.png */; };
+		C9E5699F1FB8E964003F4596 /* buttonHelp50x39.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E5699A1FB8E964003F4596 /* buttonHelp50x39.png */; };
+		C9E569A11FB903B3003F4596 /* buttonStop.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569A01FB903B3003F4596 /* buttonStop.png */; };
+		C9E569A31FB9670D003F4596 /* ButtonExit.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E569A21FB9670C003F4596 /* ButtonExit.png */; };
+		C9E569A61FB9AB52003F4596 /* OPStatsViewCtrlr.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E569A41FB9AB52003F4596 /* OPStatsViewCtrlr.m */; };
+		C9F3E90F1FF4D0F50067C45E /* OPWormHoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F3E90E1FF4D0F50067C45E /* OPWormHoleController.m */; };
+		C9F897F61FD9DC4400B5AF70 /* buttonReset.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F897F51FD9DC4400B5AF70 /* buttonReset.png */; };
+		C9FFC15A1FEF55F5003964D8 /* OPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FFC1591FEF55F5003964D8 /* OPMessage.m */; };
+		C9FFC15D1FF1C0FB003964D8 /* OrbitalVertices17.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9FFC15C1FF1C0FB003964D8 /* OrbitalVertices17.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C90A2EA41B69C0CF00BEFB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C90A2E7E1B69C0CF00BEFB1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C90A2E851B69C0CF00BEFB1C;
+			remoteInfo = OrbitPlotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C900AAC41FCFE5E7005133D7 /* OrbitalVertices8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices8.txt; sourceTree = "<group>"; };
+		C900AAC61FCFF727005133D7 /* OrbitalVertices9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices9.txt; sourceTree = "<group>"; };
+		C900AAC81FCFF75B005133D7 /* OrbitalVertices10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices10.txt; sourceTree = "<group>"; };
+		C900AACA1FCFF814005133D7 /* OrbitalVertices11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices11.txt; sourceTree = "<group>"; };
+		C900AACC1FCFF820005133D7 /* OrbitalVertices12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices12.txt; sourceTree = "<group>"; };
+		C900AACE1FCFF906005133D7 /* OrbitalVertices13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices13.txt; sourceTree = "<group>"; };
+		C90A2E861B69C0CF00BEFB1C /* OrbitPlotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbitPlotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90A2E8A1B69C0CF00BEFB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90A2E8B1B69C0CF00BEFB1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C90A2E8D1B69C0CF00BEFB1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C90A2E8E1B69C0CF00BEFB1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C90A2E901B69C0CF00BEFB1C /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		C90A2E921B69C0CF00BEFB1C /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		C90A2E941B69C0CF00BEFB1C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C90A2E951B69C0CF00BEFB1C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C90A2E9A1B69C0CF00BEFB1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C90A2E9D1B69C0CF00BEFB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C90A2EA31B69C0CF00BEFB1C /* OrbitPlotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitPlotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C90A2EA81B69C0CF00BEFB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C90A2EA91B69C0CF00BEFB1C /* OrbitPlotterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrbitPlotterTests.m; sourceTree = "<group>"; };
+		C90A2EB31B6A1D5100BEFB1C /* OPPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlanet.h; sourceTree = "<group>"; };
+		C90A2EB41B6A1D5100BEFB1C /* OPPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlanet.m; sourceTree = "<group>"; };
+		C90A2EB61B6A2DA400BEFB1C /* sharedTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sharedTypes.h; sourceTree = "<group>"; };
+		C919CB6620479A5C007389D0 /* OrbitalVertices18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices18.txt; sourceTree = "<group>"; };
+		C9318F141FD5C5C500CD9984 /* OrbitalVertices14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices14.txt; sourceTree = "<group>"; };
+		C9318F161FD5CE2500CD9984 /* OrbitalVertices15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices15.txt; sourceTree = "<group>"; };
+		C9318F181FD64F1600CD9984 /* OrbitalVertices7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices7.txt; sourceTree = "<group>"; };
+		C9318F1D1FD9082D00CD9984 /* OPVertexData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPVertexData.m; sourceTree = "<group>"; };
+		C9318F1F1FD9084000CD9984 /* OPVertexData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPVertexData.h; sourceTree = "<group>"; };
+		C940433B1B6D5A2600E083A2 /* OPOrbitBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPOrbitBase.h; sourceTree = "<group>"; };
+		C940433C1B6D5A2600E083A2 /* OPOrbitBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPOrbitBase.m; sourceTree = "<group>"; };
+		C940433E1B6FF88C00E083A2 /* OPMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPMapView.h; sourceTree = "<group>"; };
+		C940433F1B6FF88C00E083A2 /* OPMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPMapView.m; sourceTree = "<group>"; };
+		C94FED791FC2593C00518CB4 /* OrbitalVertices1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices1.txt; sourceTree = "<group>"; };
+		C94FED7B1FC2A56C00518CB4 /* OrbitalVertices2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices2.txt; sourceTree = "<group>"; };
+		C94FED7D1FC2A7ED00518CB4 /* OrbitalVertices3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices3.txt; sourceTree = "<group>"; };
+		C94FED7F1FC2A97D00518CB4 /* OrbitalVertices4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices4.txt; sourceTree = "<group>"; };
+		C94FED811FC2AAD600518CB4 /* OrbitalVertices5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices5.txt; sourceTree = "<group>"; };
+		C94FED831FC2B07800518CB4 /* OrbitalVertices6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices6.txt; sourceTree = "<group>"; };
+		C9568C151B8BC700009B7D21 /* OPPlanetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPPlanetManager.h; sourceTree = "<group>"; };
+		C9568C161B8BC700009B7D21 /* OPPlanetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPPlanetManager.m; sourceTree = "<group>"; };
+		C9671DED1FEA4C7B001B26DC /* txtureNat5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat5.png; path = Images/txtureNat5.png; sourceTree = "<group>"; };
+		C9671DEF1FEA6FDF001B26DC /* txtureNat6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat6.png; path = Images/txtureNat6.png; sourceTree = "<group>"; };
+		C9671DF11FEA71B0001B26DC /* txtureNat8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat8.png; path = Images/txtureNat8.png; sourceTree = "<group>"; };
+		C9671DF31FEA71B6001B26DC /* txtureNat9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat9.png; path = Images/txtureNat9.png; sourceTree = "<group>"; };
+		C9671DF51FEAFF13001B26DC /* txtureNat10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat10.png; path = Images/txtureNat10.png; sourceTree = "<group>"; };
+		C9671DF71FEAFF1B001B26DC /* txtureNat11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat11.png; path = Images/txtureNat11.png; sourceTree = "<group>"; };
+		C9671DF91FEAFF21001B26DC /* txtureNat7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat7.png; path = Images/txtureNat7.png; sourceTree = "<group>"; };
+		C9671DFB1FEB0978001B26DC /* txtureArt3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt3.png; path = Images/txtureArt3.png; sourceTree = "<group>"; };
+		C9671DFD1FEB097F001B26DC /* txtureArt4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt4.png; path = Images/txtureArt4.png; sourceTree = "<group>"; };
+		C9671DFF1FEB0985001B26DC /* txtureArt5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt5.png; path = Images/txtureArt5.png; sourceTree = "<group>"; };
+		C9671E011FEB098B001B26DC /* txtureArt6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt6.png; path = Images/txtureArt6.png; sourceTree = "<group>"; };
+		C97C2CEC20461809005E5955 /* txtureFloor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureFloor.png; path = Images/txtureFloor.png; sourceTree = "<group>"; };
+		C97C2CEE2046709F005E5955 /* txtureBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureBlank.png; path = Images/txtureBlank.png; sourceTree = "<group>"; };
+		C9809B691F84225B00C275CB /* PerspectiveHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerspectiveHelper.m; sourceTree = "<group>"; };
+		C9809B6B1F84229B00C275CB /* PerspectiveHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PerspectiveHelper.h; sourceTree = "<group>"; };
+		C98203FD2049E650007947D5 /* DisplayMsgDetails.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DisplayMsgDetails.txt; sourceTree = "<group>"; };
+		C98203FF204E435F007947D5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C9820401204E4421007947D5 /* obsticle2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = obsticle2.wav; sourceTree = "<group>"; };
+		C9887D3C203CD06B0062565B /* OPOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPOverlayView.m; sourceTree = "<group>"; };
+		C9887D3E203CD09A0062565B /* OPOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPOverlayView.h; sourceTree = "<group>"; };
+		C98E24F41FDBD1CA007F7048 /* CelestrialDetails.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CelestrialDetails.txt; sourceTree = "<group>"; };
+		C98E24F61FDBD4D3007F7048 /* OPPlanetDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPPlanetDetails.m; sourceTree = "<group>"; };
+		C98E24F81FDBD4ED007F7048 /* OPPlanetDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPPlanetDetails.h; sourceTree = "<group>"; };
+		C98E24FF1FE32B7D007F7048 /* txtureNat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat2.png; path = Images/txtureNat2.png; sourceTree = "<group>"; };
+		C995C4B71FA64B7E00FAD8C7 /* MomentumCircleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentumCircleManager.m; sourceTree = "<group>"; };
+		C995C4B91FA64D1C00FAD8C7 /* MomentumCircleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentumCircleManager.h; sourceTree = "<group>"; };
+		C9A0B01E200569B80093660D /* OPWall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPWall.m; sourceTree = "<group>"; };
+		C9A0B020200569C60093660D /* OPWall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPWall.h; sourceTree = "<group>"; };
+		C9A95A561FEE53E600E63C91 /* OrbitalVertices16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices16.txt; sourceTree = "<group>"; };
+		C9ACE4ED1FAC501900E9D49A /* OPCtrlPanelViewCtrlr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPCtrlPanelViewCtrlr.m; sourceTree = "<group>"; };
+		C9ACE4EF1FAC503700E9D49A /* OPCtrlPanelViewCtrlr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPCtrlPanelViewCtrlr.h; sourceTree = "<group>"; };
+		C9ACE4F01FAC671C00E9D49A /* Main_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main_Storyboard.storyboard; sourceTree = "<group>"; };
+		C9ACE4F21FAD8C5A00E9D49A /* OPPlanetFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPPlanetFactory.m; sourceTree = "<group>"; };
+		C9ACE4F41FAD8CB900E9D49A /* OPPlanetFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPPlanetFactory.h; sourceTree = "<group>"; };
+		C9ACE4F51FADA00400E9D49A /* OPPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPPlanetController.m; sourceTree = "<group>"; };
+		C9ACE4F71FADA01700E9D49A /* OPPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPPlanetController.h; sourceTree = "<group>"; };
+		C9ACE4F81FAE761700E9D49A /* OPMovingCelestrial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPMovingCelestrial.m; sourceTree = "<group>"; };
+		C9ACE4FA1FAE763000E9D49A /* OPMovingCelestrial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPMovingCelestrial.h; sourceTree = "<group>"; };
+		C9B700FE1FE8673900F481D9 /* txtureNat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat1.png; path = Images/txtureNat1.png; sourceTree = "<group>"; };
+		C9B701001FE870EE00F481D9 /* txtureNat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat3.png; path = Images/txtureNat3.png; sourceTree = "<group>"; };
+		C9B701021FE8AE3100F481D9 /* txtureNat4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureNat4.png; path = Images/txtureNat4.png; sourceTree = "<group>"; };
+		C9B701061FE8C03C00F481D9 /* txtureArt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt2.png; path = Images/txtureArt2.png; sourceTree = "<group>"; };
+		C9B701081FE8C04600F481D9 /* txtureArt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtureArt1.png; path = Images/txtureArt1.png; sourceTree = "<group>"; };
+		C9BBD0181FF7342D005EE688 /* OPVertexCreationUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPVertexCreationUtils.m; sourceTree = "<group>"; };
+		C9BBD01A1FF73459005EE688 /* OPVertexCreationUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPVertexCreationUtils.h; sourceTree = "<group>"; };
+		C9BBD01B1FF738A3005EE688 /* OPCelestrialDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPCelestrialDetail.m; sourceTree = "<group>"; };
+		C9BBD01D1FF738AE005EE688 /* OPCelestrialDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPCelestrialDetail.h; sourceTree = "<group>"; };
+		C9C58C1C1FBCF38A0054EBDE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C9E569931FB6EA18003F4596 /* OPGuideViewCtrlr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPGuideViewCtrlr.m; sourceTree = "<group>"; };
+		C9E569951FB6EA31003F4596 /* OPGuideViewCtrlr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPGuideViewCtrlr.h; sourceTree = "<group>"; };
+		C9E569961FB8E964003F4596 /* buttonControlPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonControlPanel.png; path = Images/buttonControlPanel.png; sourceTree = "<group>"; };
+		C9E569971FB8E964003F4596 /* buttonThrustBurst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonThrustBurst.png; path = Images/buttonThrustBurst.png; sourceTree = "<group>"; };
+		C9E569981FB8E964003F4596 /* buttonStats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonStats.png; path = Images/buttonStats.png; sourceTree = "<group>"; };
+		C9E569991FB8E964003F4596 /* buttonThrustPerp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonThrustPerp.png; path = Images/buttonThrustPerp.png; sourceTree = "<group>"; };
+		C9E5699A1FB8E964003F4596 /* buttonHelp50x39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonHelp50x39.png; path = Images/buttonHelp50x39.png; sourceTree = "<group>"; };
+		C9E569A01FB903B3003F4596 /* buttonStop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonStop.png; path = Images/buttonStop.png; sourceTree = "<group>"; };
+		C9E569A21FB9670C003F4596 /* ButtonExit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonExit.png; path = Images/ButtonExit.png; sourceTree = "<group>"; };
+		C9E569A41FB9AB52003F4596 /* OPStatsViewCtrlr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPStatsViewCtrlr.m; sourceTree = "<group>"; };
+		C9E569A51FB9AB52003F4596 /* OPStatsViewCtrlr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPStatsViewCtrlr.h; sourceTree = "<group>"; };
+		C9F3E90E1FF4D0F50067C45E /* OPWormHoleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPWormHoleController.m; sourceTree = "<group>"; };
+		C9F3E9101FF4D1180067C45E /* OPWormHoleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPWormHoleController.h; sourceTree = "<group>"; };
+		C9F897F51FD9DC4400B5AF70 /* buttonReset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonReset.png; path = Images/buttonReset.png; sourceTree = "<group>"; };
+		C9FFC1591FEF55F5003964D8 /* OPMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPMessage.m; sourceTree = "<group>"; };
+		C9FFC15B1FEF5609003964D8 /* OPMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OPMessage.h; sourceTree = "<group>"; };
+		C9FFC15C1FF1C0FB003964D8 /* OrbitalVertices17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrbitalVertices17.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90A2E831B69C0CF00BEFB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9820400204E435F007947D5 /* AudioToolbox.framework in Frameworks */,
+				C9C58C1D1FBCF3AB0054EBDE /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90A2EA01B69C0CF00BEFB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C90A2E7D1B69C0CF00BEFB1C = {
+			isa = PBXGroup;
+			children = (
+				C90A2E881B69C0CF00BEFB1C /* OrbitPlotter */,
+				C90A2EA61B69C0CF00BEFB1C /* OrbitPlotterTests */,
+				C90A2E871B69C0CF00BEFB1C /* Products */,
+				C9C58C1B1FBCF38A0054EBDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C90A2E871B69C0CF00BEFB1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2E861B69C0CF00BEFB1C /* OrbitPlotter.app */,
+				C90A2EA31B69C0CF00BEFB1C /* OrbitPlotterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90A2E881B69C0CF00BEFB1C /* OrbitPlotter */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2EB71B6ADEA300BEFB1C /* images */,
+				C94FED781FC23E2D00518CB4 /* Resources */,
+				C90A2EB61B6A2DA400BEFB1C /* sharedTypes.h */,
+				C9F897FB1FDBCAED00B5AF70 /* ViewControllers */,
+				C9F897FC1FDBCB7B00B5AF70 /* CelestrialSource */,
+				C90A2E8E1B69C0CF00BEFB1C /* AppDelegate.m */,
+				C90A2E8D1B69C0CF00BEFB1C /* AppDelegate.h */,
+				C90A2E901B69C0CF00BEFB1C /* Shader.fsh */,
+				C90A2E921B69C0CF00BEFB1C /* Shader.vsh */,
+				C9BBD0181FF7342D005EE688 /* OPVertexCreationUtils.m */,
+				C9BBD01A1FF73459005EE688 /* OPVertexCreationUtils.h */,
+				C9ACE4F01FAC671C00E9D49A /* Main_Storyboard.storyboard */,
+				C90A2E9A1B69C0CF00BEFB1C /* Images.xcassets */,
+				C90A2E9C1B69C0CF00BEFB1C /* LaunchScreen.xib */,
+				C90A2E891B69C0CF00BEFB1C /* Supporting Files */,
+				C9F3E90E1FF4D0F50067C45E /* OPWormHoleController.m */,
+				C9F3E9101FF4D1180067C45E /* OPWormHoleController.h */,
+				C9887D3C203CD06B0062565B /* OPOverlayView.m */,
+				C9887D3E203CD09A0062565B /* OPOverlayView.h */,
+				C9FFC1591FEF55F5003964D8 /* OPMessage.m */,
+				C9FFC15B1FEF5609003964D8 /* OPMessage.h */,
+				C940433E1B6FF88C00E083A2 /* OPMapView.h */,
+				C940433F1B6FF88C00E083A2 /* OPMapView.m */,
+				C9809B691F84225B00C275CB /* PerspectiveHelper.m */,
+				C9809B6B1F84229B00C275CB /* PerspectiveHelper.h */,
+			);
+			path = OrbitPlotter;
+			sourceTree = "<group>";
+		};
+		C90A2E891B69C0CF00BEFB1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2E8A1B69C0CF00BEFB1C /* Info.plist */,
+				C90A2E8B1B69C0CF00BEFB1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C90A2EA61B69C0CF00BEFB1C /* OrbitPlotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2EA91B69C0CF00BEFB1C /* OrbitPlotterTests.m */,
+				C90A2EA71B69C0CF00BEFB1C /* Supporting Files */,
+			);
+			path = OrbitPlotterTests;
+			sourceTree = "<group>";
+		};
+		C90A2EA71B69C0CF00BEFB1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2EA81B69C0CF00BEFB1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C90A2EB71B6ADEA300BEFB1C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C97C2CEE2046709F005E5955 /* txtureBlank.png */,
+				C9671E011FEB098B001B26DC /* txtureArt6.png */,
+				C9671DFF1FEB0985001B26DC /* txtureArt5.png */,
+				C9671DFD1FEB097F001B26DC /* txtureArt4.png */,
+				C9671DFB1FEB0978001B26DC /* txtureArt3.png */,
+				C9B701061FE8C03C00F481D9 /* txtureArt2.png */,
+				C9B701081FE8C04600F481D9 /* txtureArt1.png */,
+				C97C2CEC20461809005E5955 /* txtureFloor.png */,
+				C9671DF71FEAFF1B001B26DC /* txtureNat11.png */,
+				C9671DF51FEAFF13001B26DC /* txtureNat10.png */,
+				C9671DF31FEA71B6001B26DC /* txtureNat9.png */,
+				C9671DF11FEA71B0001B26DC /* txtureNat8.png */,
+				C9671DF91FEAFF21001B26DC /* txtureNat7.png */,
+				C9671DEF1FEA6FDF001B26DC /* txtureNat6.png */,
+				C9671DED1FEA4C7B001B26DC /* txtureNat5.png */,
+				C9B701021FE8AE3100F481D9 /* txtureNat4.png */,
+				C9B701001FE870EE00F481D9 /* txtureNat3.png */,
+				C9B700FE1FE8673900F481D9 /* txtureNat1.png */,
+				C98E24FF1FE32B7D007F7048 /* txtureNat2.png */,
+				C9F897F51FD9DC4400B5AF70 /* buttonReset.png */,
+				C9E569A21FB9670C003F4596 /* ButtonExit.png */,
+				C9E569961FB8E964003F4596 /* buttonControlPanel.png */,
+				C9E569A01FB903B3003F4596 /* buttonStop.png */,
+				C9E5699A1FB8E964003F4596 /* buttonHelp50x39.png */,
+				C9E569971FB8E964003F4596 /* buttonThrustBurst.png */,
+				C9E569991FB8E964003F4596 /* buttonThrustPerp.png */,
+				C9E569981FB8E964003F4596 /* buttonStats.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		C94FED781FC23E2D00518CB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9820401204E4421007947D5 /* obsticle2.wav */,
+				C94FED791FC2593C00518CB4 /* OrbitalVertices1.txt */,
+				C94FED7B1FC2A56C00518CB4 /* OrbitalVertices2.txt */,
+				C94FED7F1FC2A97D00518CB4 /* OrbitalVertices4.txt */,
+				C94FED7D1FC2A7ED00518CB4 /* OrbitalVertices3.txt */,
+				C94FED811FC2AAD600518CB4 /* OrbitalVertices5.txt */,
+				C9318F181FD64F1600CD9984 /* OrbitalVertices7.txt */,
+				C94FED831FC2B07800518CB4 /* OrbitalVertices6.txt */,
+				C900AAC41FCFE5E7005133D7 /* OrbitalVertices8.txt */,
+				C900AAC61FCFF727005133D7 /* OrbitalVertices9.txt */,
+				C900AAC81FCFF75B005133D7 /* OrbitalVertices10.txt */,
+				C900AACA1FCFF814005133D7 /* OrbitalVertices11.txt */,
+				C900AACC1FCFF820005133D7 /* OrbitalVertices12.txt */,
+				C900AACE1FCFF906005133D7 /* OrbitalVertices13.txt */,
+				C9318F141FD5C5C500CD9984 /* OrbitalVertices14.txt */,
+				C9318F161FD5CE2500CD9984 /* OrbitalVertices15.txt */,
+				C9A95A561FEE53E600E63C91 /* OrbitalVertices16.txt */,
+				C9FFC15C1FF1C0FB003964D8 /* OrbitalVertices17.txt */,
+				C919CB6620479A5C007389D0 /* OrbitalVertices18.txt */,
+				C98E24F41FDBD1CA007F7048 /* CelestrialDetails.txt */,
+				C98203FD2049E650007947D5 /* DisplayMsgDetails.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9C58C1B1FBCF38A0054EBDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98203FF204E435F007947D5 /* AudioToolbox.framework */,
+				C9C58C1C1FBCF38A0054EBDE /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F897FB1FDBCAED00B5AF70 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C90A2E951B69C0CF00BEFB1C /* GameViewController.m */,
+				C90A2E941B69C0CF00BEFB1C /* GameViewController.h */,
+				C9E569A51FB9AB52003F4596 /* OPStatsViewCtrlr.h */,
+				C9E569A41FB9AB52003F4596 /* OPStatsViewCtrlr.m */,
+				C9ACE4ED1FAC501900E9D49A /* OPCtrlPanelViewCtrlr.m */,
+				C9ACE4EF1FAC503700E9D49A /* OPCtrlPanelViewCtrlr.h */,
+				C9E569931FB6EA18003F4596 /* OPGuideViewCtrlr.m */,
+				C9E569951FB6EA31003F4596 /* OPGuideViewCtrlr.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9F897FC1FDBCB7B00B5AF70 /* CelestrialSource */ = {
+			isa = PBXGroup;
+			children = (
+				C9568C161B8BC700009B7D21 /* OPPlanetManager.m */,
+				C9568C151B8BC700009B7D21 /* OPPlanetManager.h */,
+				C9318F1F1FD9084000CD9984 /* OPVertexData.h */,
+				C9318F1D1FD9082D00CD9984 /* OPVertexData.m */,
+				C9ACE4F51FADA00400E9D49A /* OPPlanetController.m */,
+				C9ACE4F71FADA01700E9D49A /* OPPlanetController.h */,
+				C995C4B91FA64D1C00FAD8C7 /* MomentumCircleManager.h */,
+				C995C4B71FA64B7E00FAD8C7 /* MomentumCircleManager.m */,
+				C90A2EB31B6A1D5100BEFB1C /* OPPlanet.h */,
+				C90A2EB41B6A1D5100BEFB1C /* OPPlanet.m */,
+				C9A0B01E200569B80093660D /* OPWall.m */,
+				C9A0B020200569C60093660D /* OPWall.h */,
+				C940433B1B6D5A2600E083A2 /* OPOrbitBase.h */,
+				C940433C1B6D5A2600E083A2 /* OPOrbitBase.m */,
+				C9ACE4F81FAE761700E9D49A /* OPMovingCelestrial.m */,
+				C9ACE4FA1FAE763000E9D49A /* OPMovingCelestrial.h */,
+				C9ACE4F21FAD8C5A00E9D49A /* OPPlanetFactory.m */,
+				C9ACE4F41FAD8CB900E9D49A /* OPPlanetFactory.h */,
+				C98E24F61FDBD4D3007F7048 /* OPPlanetDetails.m */,
+				C98E24F81FDBD4ED007F7048 /* OPPlanetDetails.h */,
+				C9BBD01B1FF738A3005EE688 /* OPCelestrialDetail.m */,
+				C9BBD01D1FF738AE005EE688 /* OPCelestrialDetail.h */,
+			);
+			name = CelestrialSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C90A2E851B69C0CF00BEFB1C /* OrbitPlotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90A2EAD1B69C0CF00BEFB1C /* Build configuration list for PBXNativeTarget "OrbitPlotter" */;
+			buildPhases = (
+				C90A2E821B69C0CF00BEFB1C /* Sources */,
+				C90A2E831B69C0CF00BEFB1C /* Frameworks */,
+				C90A2E841B69C0CF00BEFB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrbitPlotter;
+			productName = OrbitPlotter;
+			productReference = C90A2E861B69C0CF00BEFB1C /* OrbitPlotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C90A2EA21B69C0CF00BEFB1C /* OrbitPlotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C90A2EB01B69C0CF00BEFB1C /* Build configuration list for PBXNativeTarget "OrbitPlotterTests" */;
+			buildPhases = (
+				C90A2E9F1B69C0CF00BEFB1C /* Sources */,
+				C90A2EA01B69C0CF00BEFB1C /* Frameworks */,
+				C90A2EA11B69C0CF00BEFB1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C90A2EA51B69C0CF00BEFB1C /* PBXTargetDependency */,
+			);
+			name = OrbitPlotterTests;
+			productName = OrbitPlotterTests;
+			productReference = C90A2EA31B69C0CF00BEFB1C /* OrbitPlotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C90A2E7E1B69C0CF00BEFB1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "John Kinn";
+				TargetAttributes = {
+					C90A2E851B69C0CF00BEFB1C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = R4LT5Y9JSF;
+					};
+					C90A2EA21B69C0CF00BEFB1C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = R4LT5Y9JSF;
+						TestTargetID = C90A2E851B69C0CF00BEFB1C;
+					};
+				};
+			};
+			buildConfigurationList = C90A2E811B69C0CF00BEFB1C /* Build configuration list for PBXProject "OrbitPlotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C90A2E7D1B69C0CF00BEFB1C;
+			productRefGroup = C90A2E871B69C0CF00BEFB1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C90A2E851B69C0CF00BEFB1C /* OrbitPlotter */,
+				C90A2EA21B69C0CF00BEFB1C /* OrbitPlotterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C90A2E841B69C0CF00BEFB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94FED801FC2A97D00518CB4 /* OrbitalVertices4.txt in Resources */,
+				C9E5699B1FB8E964003F4596 /* buttonControlPanel.png in Resources */,
+				C97C2CEF204670A0005E5955 /* txtureBlank.png in Resources */,
+				C9671DF61FEAFF13001B26DC /* txtureNat10.png in Resources */,
+				C94FED7A1FC2593C00518CB4 /* OrbitalVertices1.txt in Resources */,
+				C9F897F61FD9DC4400B5AF70 /* buttonReset.png in Resources */,
+				C900AACD1FCFF820005133D7 /* OrbitalVertices12.txt in Resources */,
+				C9671DFC1FEB0978001B26DC /* txtureArt3.png in Resources */,
+				C9671DFA1FEAFF21001B26DC /* txtureNat7.png in Resources */,
+				C9B701031FE8AE3100F481D9 /* txtureNat4.png in Resources */,
+				C98E24F51FDBD1CA007F7048 /* CelestrialDetails.txt in Resources */,
+				C90A2E9E1B69C0CF00BEFB1C /* LaunchScreen.xib in Resources */,
+				C9B700FF1FE8673900F481D9 /* txtureNat1.png in Resources */,
+				C9671DF01FEA6FDF001B26DC /* txtureNat6.png in Resources */,
+				C90A2E9B1B69C0CF00BEFB1C /* Images.xcassets in Resources */,
+				C9B701011FE870EE00F481D9 /* txtureNat3.png in Resources */,
+				C9671E001FEB0985001B26DC /* txtureArt5.png in Resources */,
+				C94FED7C1FC2A56C00518CB4 /* OrbitalVertices2.txt in Resources */,
+				C9671DFE1FEB097F001B26DC /* txtureArt4.png in Resources */,
+				C9671E021FEB098B001B26DC /* txtureArt6.png in Resources */,
+				C9B701071FE8C03C00F481D9 /* txtureArt2.png in Resources */,
+				C9671DEE1FEA4C7B001B26DC /* txtureNat5.png in Resources */,
+				C9820402204E4421007947D5 /* obsticle2.wav in Resources */,
+				C98E25001FE32B7D007F7048 /* txtureNat2.png in Resources */,
+				C9671DF81FEAFF1B001B26DC /* txtureNat11.png in Resources */,
+				C900AACB1FCFF814005133D7 /* OrbitalVertices11.txt in Resources */,
+				C90A2E931B69C0CF00BEFB1C /* Shader.vsh in Resources */,
+				C9318F151FD5C5C500CD9984 /* OrbitalVertices14.txt in Resources */,
+				C900AAC51FCFE5E7005133D7 /* OrbitalVertices8.txt in Resources */,
+				C919CB6720479A5C007389D0 /* OrbitalVertices18.txt in Resources */,
+				C9A95A571FEE53E600E63C91 /* OrbitalVertices16.txt in Resources */,
+				C94FED7E1FC2A7ED00518CB4 /* OrbitalVertices3.txt in Resources */,
+				C9FFC15D1FF1C0FB003964D8 /* OrbitalVertices17.txt in Resources */,
+				C9B701091FE8C04600F481D9 /* txtureArt1.png in Resources */,
+				C9671DF21FEA71B1001B26DC /* txtureNat8.png in Resources */,
+				C9E5699F1FB8E964003F4596 /* buttonHelp50x39.png in Resources */,
+				C900AAC71FCFF727005133D7 /* OrbitalVertices9.txt in Resources */,
+				C9318F191FD64F1600CD9984 /* OrbitalVertices7.txt in Resources */,
+				C9318F171FD5CE2500CD9984 /* OrbitalVertices15.txt in Resources */,
+				C98203FE2049E650007947D5 /* DisplayMsgDetails.txt in Resources */,
+				C9E5699D1FB8E964003F4596 /* buttonStats.png in Resources */,
+				C9671DF41FEA71B7001B26DC /* txtureNat9.png in Resources */,
+				C900AACF1FCFF906005133D7 /* OrbitalVertices13.txt in Resources */,
+				C94FED841FC2B07800518CB4 /* OrbitalVertices6.txt in Resources */,
+				C94FED821FC2AAD600518CB4 /* OrbitalVertices5.txt in Resources */,
+				C90A2E911B69C0CF00BEFB1C /* Shader.fsh in Resources */,
+				C9E5699C1FB8E964003F4596 /* buttonThrustBurst.png in Resources */,
+				C97C2CED20461809005E5955 /* txtureFloor.png in Resources */,
+				C9E5699E1FB8E964003F4596 /* buttonThrustPerp.png in Resources */,
+				C900AAC91FCFF75B005133D7 /* OrbitalVertices10.txt in Resources */,
+				C9E569A31FB9670D003F4596 /* ButtonExit.png in Resources */,
+				C9ACE4F11FAC671C00E9D49A /* Main_Storyboard.storyboard in Resources */,
+				C9E569A11FB903B3003F4596 /* buttonStop.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90A2EA11B69C0CF00BEFB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C90A2E821B69C0CF00BEFB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92F8F131BA27F330083C4D8 /* OPPlanet.m in Sources */,
+				C995C4B81FA64B7E00FAD8C7 /* MomentumCircleManager.m in Sources */,
+				C9A0B01F200569B80093660D /* OPWall.m in Sources */,
+				C9FFC15A1FEF55F5003964D8 /* OPMessage.m in Sources */,
+				C9ACE4F61FADA00400E9D49A /* OPPlanetController.m in Sources */,
+				C90A2E8F1B69C0CF00BEFB1C /* AppDelegate.m in Sources */,
+				C9568C171B8BC700009B7D21 /* OPPlanetManager.m in Sources */,
+				C9318F1E1FD9082D00CD9984 /* OPVertexData.m in Sources */,
+				C940433D1B6D5A2600E083A2 /* OPOrbitBase.m in Sources */,
+				C9809B6A1F84225B00C275CB /* PerspectiveHelper.m in Sources */,
+				C9ACE4F91FAE761700E9D49A /* OPMovingCelestrial.m in Sources */,
+				C98E24F71FDBD4D3007F7048 /* OPPlanetDetails.m in Sources */,
+				C9887D3D203CD06B0062565B /* OPOverlayView.m in Sources */,
+				C9BBD01C1FF738A3005EE688 /* OPCelestrialDetail.m in Sources */,
+				C9BBD0191FF7342D005EE688 /* OPVertexCreationUtils.m in Sources */,
+				C90A2E961B69C0CF00BEFB1C /* GameViewController.m in Sources */,
+				C9ACE4F31FAD8C5A00E9D49A /* OPPlanetFactory.m in Sources */,
+				C90A2E8C1B69C0CF00BEFB1C /* main.m in Sources */,
+				C9E569941FB6EA18003F4596 /* OPGuideViewCtrlr.m in Sources */,
+				C9E569A61FB9AB52003F4596 /* OPStatsViewCtrlr.m in Sources */,
+				C94043401B6FF88C00E083A2 /* OPMapView.m in Sources */,
+				C9F3E90F1FF4D0F50067C45E /* OPWormHoleController.m in Sources */,
+				C9ACE4EE1FAC501900E9D49A /* OPCtrlPanelViewCtrlr.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90A2E9F1B69C0CF00BEFB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92F8F141BA27FB20083C4D8 /* OrbitPlotterTests.xctest in Sources */,
+				C90A2EAA1B69C0CF00BEFB1C /* OrbitPlotterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C90A2EA51B69C0CF00BEFB1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C90A2E851B69C0CF00BEFB1C /* OrbitPlotter */;
+			targetProxy = C90A2EA41B69C0CF00BEFB1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C90A2E9C1B69C0CF00BEFB1C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C90A2E9D1B69C0CF00BEFB1C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C90A2EAB1B69C0CF00BEFB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C90A2EAC1B69C0CF00BEFB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C90A2EAE1B69C0CF00BEFB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R4LT5Y9JSF;
+				INFOPLIST_FILE = OrbitPlotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NJApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C90A2EAF1B69C0CF00BEFB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R4LT5Y9JSF;
+				INFOPLIST_FILE = OrbitPlotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NJApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C90A2EB11B69C0CF00BEFB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R4LT5Y9JSF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrbitPlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NJApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitPlotter.app/OrbitPlotter";
+			};
+			name = Debug;
+		};
+		C90A2EB21B69C0CF00BEFB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R4LT5Y9JSF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OrbitPlotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NJApps.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrbitPlotter.app/OrbitPlotter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C90A2E811B69C0CF00BEFB1C /* Build configuration list for PBXProject "OrbitPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A2EAB1B69C0CF00BEFB1C /* Debug */,
+				C90A2EAC1B69C0CF00BEFB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90A2EAD1B69C0CF00BEFB1C /* Build configuration list for PBXNativeTarget "OrbitPlotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A2EAE1B69C0CF00BEFB1C /* Debug */,
+				C90A2EAF1B69C0CF00BEFB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C90A2EB01B69C0CF00BEFB1C /* Build configuration list for PBXNativeTarget "OrbitPlotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90A2EB11B69C0CF00BEFB1C /* Debug */,
+				C90A2EB21B69C0CF00BEFB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C90A2E7E1B69C0CF00BEFB1C /* Project object */;
+}
